@@ -1,0 +1,101 @@
+.fullWidthContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+
+  .contactForm {
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    background-color: white;
+    z-index: 2;
+    justify-content: center;
+  
+    h2 {
+      color: #017865;
+      font-size: 48px;
+      margin-top: 150px;
+      text-align: center;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    input, select {
+      margin: 0 auto; /* Center horizontally */
+      border: 1px solid #ccc;
+      border-style: none none solid none;
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    textarea {
+      margin: 0 auto; /* Center horizontally */
+      border: 1px solid #ccc;
+      padding: 8px;
+      font-size: 16px;
+      height: 150px;
+      resize: vertical;
+    }
+
+    .formButtons {
+      display: flex;
+      padding-top: 20px;
+      justify-content: center;
+      gap: 10px;
+    
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: #1C1D20;
+        color: white;
+        font-size: 16px;
+        &:first-of-type {
+          background-color: #f44336; // Red for "Cut
+        }  
+      }
+    }
+
+    label {
+      margin: 0 auto; /* Center horizontally */
+      display: flex;
+      margin-top: 12px;
+      align-items: center;
+      padding-left: 8px;
+      color: #999;
+      font-size: 16px;
+      height: 4px;
+    }
+
+    .successMessage, .errorMessage {
+      margin: 0 auto; /* Center horizontally */
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-image: url('data:image/svg+xml;utf8,<svg>...</svg>');
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+    }
+
+    .errorMessage {
+      color: #f44336;
+      font-size: 14px;
+      margin-top: 4px;
+    }
+  }
+}

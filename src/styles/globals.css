@@ -1,0 +1,9 @@
+/* Import custom fonts */
+@import url('./custom-fonts.css');
+
+body{
+    margin: 0px;
+    overflow: hidden; /* Hide scrollbars */
+    cursor: wait;
+    font-family: 'ClashDisplay-Light';
+}

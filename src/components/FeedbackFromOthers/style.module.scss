@@ -1,0 +1,132 @@
+.feedbackSection {
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 2.5fr 35fr 2.5fr 60fr;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 50px; // Increased for more space above the component
+    gap: 20px;
+    max-width: 1400px;
+    padding-bottom: 50px; // Space below the carousel before the grey background ends
+  }
+  
+  .feedbackTitle {
+    grid-column: 2 / span 1;
+    font-size: 24px;
+    text-align: left;
+    color: #333;
+    margin: 0;
+    padding: 0 20px;
+  }
+  
+  .carouselContainer {
+    grid-column: 4 / span 1;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    height: auto; // Allow the carousel to grow with the content
+    min-height: 300px; // Minimum height to ensure visibility of content
+  }
+  
+  .feedbackContent {
+    flex-direction: column; // Stack image and text vertically
+    align-items: flex-start; // Align items to the start of the flex container
+    padding: 0 30px; // Adjust padding for overall spacing
+  }
+  
+  .profileImage {
+    width: 150px; // Increase the size of the image
+    height: 150px; // Increase the size of the image
+    margin-bottom: 20px; // Add space between the image and the text
+    align-self: center; // Center the image
+    border-radius: 50%;
+  }
+  
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; // Align text to the start
+    position: relative; // Positioning context for name and company
+    max-width: 100%; // Allow text to use up available space
+  }
+  
+  .reviewText {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+  }
+  
+  .profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; // Add some space between the image and the name and business
+  }
+  
+  .consumerName,
+  .businessName {
+    align-self: center; // Center the text below the image
+    margin: 0; // Reset any margin that might be adding unwanted space
+  }
+  .consumerName{
+    color: rgb(41, 41, 41);
+  }
+  .businessName{
+    color: rgb(153, 153, 153);
+    margin-bottom: 20px;
+  }
+  
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: auto; // Allow slide to grow with content
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 24px;
+    text-align: center;
+    min-height: 350px; // Adjust the min-height as needed to fit content
+    display: flex; // Use flexbox to lay out the content
+    flex-direction: column; // Stack children vertically
+    justify-content: center; // Center content vertically
+    align-items: center; // Center content horizontally
+    padding: 20px; // Add padding as needed
+  }
+  
+  .next,
+  .prev {
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #017865;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  .next,
+  .prev {
+    top: 50%; // Position the buttons in the center vertically
+  }
+
+  .next {
+    right: 10px;
+  }
+  
+  .prev {
+    left: 10px;
+    transform: translateY(-50%) rotate(180deg);
+  }
