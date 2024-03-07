@@ -2,11 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, download: 
-1 - [GitHub Desktop](https://desktop.github.com)
-2 - [VSCode](https://code.visualstudio.com/download)
+First, download: [GitHub Desktop](https://desktop.github.com) & [VSCode](https://code.visualstudio.com/download)
 
-Then, run the development server in the vscode terminal:
+Then, clone the repository in Github Desktop. 
+
+Once cloned, right click on Current Repository and open with VSCode.
+
+When in VSCode, right click in the empty space in the file browser and select open in integrated terminal.
+
+Then, run the development server in the terminal:
 
 ```bash
 npm install --save-dev
