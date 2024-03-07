@@ -2,7 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server in the vscode terminal:
+First, download: 
+1 - [GitHub Desktop](https://desktop.github.com)
+2 - [VSCode](https://code.visualstudio.com/download)
+
+Then, run the development server in the vscode terminal:
 
 ```bash
 npm install --save-dev
